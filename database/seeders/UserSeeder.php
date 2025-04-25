@@ -20,7 +20,7 @@ class UserSeeder extends Seeder
             [
                 'name' => 'Admin',
                 'email' => 'admin@admin.com',
-                'password' => Hash::make('admin1234'), // Use a secure password hashing method
+                'password' => Hash::make('password1234'), // Use a secure password hashing method
             ]
         );
     }
